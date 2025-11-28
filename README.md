@@ -15,23 +15,33 @@ Arquivos principais
 
 Instalação (Windows)
 1. Abra PowerShell no diretório do projeto:
+   ```sh
    cd cors-atv-pw
+   ```
 2. Instale backend:
+   ```sh
    cd backend
    npm install
+   ```
 3. Instale frontend:
+   ```sh
    cd ..\frontend
    npm install
+   ```
 
 Execução
 - Backend:
+  ```sh
   cd cors-atv-pw\backend
   npm start
+  ```
 - Frontend (novo terminal):
+  ```sh
   cd cors-atv-pw\frontend
   npm start
   ou
   npx serve -l 3000
+  ```
 
 Teste rápido
 - Abra http://localhost:3000 e verifique no console do navegador ou em Network.
